@@ -1,0 +1,43 @@
+.custom-dark {
+    --background: #0d0d0d;
+    color: #00ff88;
+  }
+  
+  /* Card principal */
+  .form-card {
+    background: #111;
+    border: 1px solid #00ff88;
+    border-radius: 12px;
+    color: #00ff88;
+    box-shadow: 0 2px 8px rgba(0, 255, 136, 0.1);
+  }
+  
+  /* Cabeçalho */
+  ion-card-title {
+    color: #00ff88;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.4rem;
+  }
+  
+  /* Inputs */
+  ion-item {
+    --background: transparent;
+    --color: #00ff88;
+    border: 1px solid #00ff88;
+    border-radius: 8px;
+    margin-bottom: 12px;
+  }
+  
+  ion-input {
+    color: #00ff88;
+  }
+  
+  /* Botão */
+  .btn-register {
+    --background: #00ff88;
+    --color: #000;
+    font-weight: bold;
+    border-radius: 10px;
+  }
+  
