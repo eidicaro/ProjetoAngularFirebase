@@ -15,7 +15,7 @@ export class APIService {
   ) {}
 
   // produção
-  URL = 'https://restcountries.com/v3.1';
+  URL = 'http://localhost:3000';
 
   // desenvolvimento
   //URL = 'http://127.0.0.1:5001/lionsclube-5885a.cloudfunctions.net/app';

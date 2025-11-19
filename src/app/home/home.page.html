@@ -1,6 +1,9 @@
 <ion-content [fullscreen]="true">
 
-    <ion-button color="secondary">Teste</ion-button>
+
+    <input type="text" label="Nome" [(ngModel)]="this.funcionario.nome">
+    <input type="text" label="Pais" [(ngModel)]="this.funcionario.pais">
+    <ion-button color="secondary" (click)="cadastrar()">Teste</ion-button>
     
     
 </ion-content>
